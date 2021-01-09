@@ -33,6 +33,10 @@ def check():
         print('Первый игрок победил!!')
         return 1
 
+    if board['T3'] == 'X' and board['M2'] == 'X' and board['D1'] == 'X':
+        print('Первый игрок победил!!')
+        return 1
+
     if board['T1'] == 'X' and board['M1'] == 'X' and board['D1'] == 'X':
         print('Первый игрок победил!')
         return 1
